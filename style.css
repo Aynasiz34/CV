@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  color: #343a40;
+  font-weight: 400;
+}
+
+.title {
+  margin-bottom: 24px;
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 10px;
+}
+
+.personal-info {
+  display: flex;
+  background-color: #e0e7ff;
+  padding: 24px 48px 30px 24px;
+  margin-top: 10px;
+  line-height: 1.5;
+  border-bottom-right-radius: 10px;
+}
+
+img {
+  width: 108px;
+  height: 108px;
+  border-radius: 10px;
+}
+.img-container {
+  width: 132px;
+  height: 132px;
+  background-color: #d8a70f;
+  padding: 12px;
+  margin-right: 24px;
+  border-radius: 10px;
+  align-self: baseline;
+}
+
+.links {
+  background-color: #475569;
+  color: aliceblue;
+  padding: 24px 48px 24px 24px;
+  margin-top: 10px;
+  line-height: 1.5;
+  border-bottom-left-radius: 10px;
+}
+
+.links ul {
+  list-style: none;
+}
+
+.links li {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 24px;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+}
+/* #D8A70F */
+
+.skills-xp {
+  padding: 24px 48px 30px 24px;
+}
+
+.skills {
+  margin-bottom: 48px;
+}
+
+.skills div {
+  margin-bottom: 12px;
+}
+
+.skills div:first-child {
+  margin-bottom: 24px;
+}
+
+.job {
+  margin-bottom: 16px;
+}
+
+.job li {
+  margin-bottom: 6px;
+}
+
+ul {
+  margin-top: 8px;
+}
+
+.xp-info {
+  display: block;
+  font-style: italic;
+  font-size: 12px;
+  color: #d8a70f;
+  margin-left: 4px;
+}
+
+.qualifications {
+  background-color: #e0e7ff;
+  padding: 24px 48px 30px 24px;
+  border-top-left-radius: 10px;
+}
+
+.experiences {
+  margin-bottom: 48px;
+}
+
+.languages {
+  margin-bottom: 48px;
+}
+
+.language {
+  margin-bottom: 6px;
+}
+
+.certificates {
+  margin-bottom: 48px;
+}
+
+.certificates li {
+  margin-bottom: 6px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.projects {
+  margin-bottom: 48px;
+}
+
+.projects li {
+  margin-bottom: 10px;
+}
+
+.interests li {
+  margin-bottom: 6px;
+}
